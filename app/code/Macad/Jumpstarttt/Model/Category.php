@@ -4,16 +4,13 @@ declare(strict_types=1);
 
 namespace Macad\Jumpstarttt\Model;
 
-class Product
+use Macad\Jumpstarttt\Api\CategoryInterface;
+
+class Category implements CategoryInterface
 {
-    private Category $category;
+    protected $name;
 
-    function __construct()
-    {
-        $this->category = new Category();
-    }
-
-    function getCategoryName(): string
+    public function getName()
     {
         return $this->category->getName();
     }

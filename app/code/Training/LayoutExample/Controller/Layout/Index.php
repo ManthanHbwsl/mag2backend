@@ -16,6 +16,11 @@ class Index implements HttpGetActionInterface{
     }
     public function execute()
     {
+        // $res = $this -> resultFactory -> create();
+        // $res->getConfig()->getTitle()->set('Manthan');
+
+        // return $res;
+
         return $this -> resultFactory -> create();
     }
 }

@@ -18,6 +18,8 @@ class Index implements HttpGetActionInterface
 
     public function execute(): Page
 {
-    return $this->pageFactory->create();
+    $page = $this->pageFactory->create();
+    $page->getConfig()->getTitle()->set('Welcome!');
+    return $page;
 }
 }

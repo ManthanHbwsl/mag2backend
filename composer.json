@@ -99,5 +99,9 @@
     ],
     "extra": {
         "magento-force": "override"
+    },
+    "replace": {
+        "Magento_TwoFactorAuth" : "*",
+        "Magento_AdminAdobeImsTwoFactorAuth" : "*"
     }
 }

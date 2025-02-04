@@ -2,16 +2,16 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <title>Manthan Shinde</title>
+        <title>Manthan</title>
     </head>
     <body>
-        <referenceBlock name="page.main.title">
+        <!-- <referenceBlock name="page.main.title">
             <action method="setPageTitle">
                 <argument name="title" xsi:type="string">Manthannn</argument>
             </action>
-        </referenceBlock>
+        </referenceBlock> -->
         <referenceContainer name="content">
-            <block name="layout" class="Magento\Framework\View\Element\Template" template="Training_LayoutExample::content.phtml" />    
+            <block name="layout" class="Training\LayoutExample\Block\Layout\Index" template="Training_LayoutExample::content.phtml" />    
         </referenceContainer>
     </body>
 </page>

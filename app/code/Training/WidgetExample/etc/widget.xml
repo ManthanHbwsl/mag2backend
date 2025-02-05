@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="widget" class="Training\WidgetExample\Block\Widget\Title">
+        <label>Custom Widget Example</label>
+        <description>This is a custom widget for demonstration.</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" required="true" sort_order="10">
+                <label>Widget Title</label>
+            </parameter>
+            <parameter name="content" xsi:type="text" required="false" sort_order="20">
+                <label>Widget Content</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

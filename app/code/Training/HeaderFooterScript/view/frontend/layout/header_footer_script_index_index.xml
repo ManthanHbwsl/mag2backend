@@ -4,5 +4,8 @@
         <referenceBlock name="head.additional">
             <block name="hf_script_def_specific" template="Training_HeaderFooterScript::head_additional/hfscript.phtml" class="Magento\Framework\View\Element\Template" />
         </referenceBlock>
+        <referenceBlock name="before.body.end">
+            <block name="be_script_def_specific" template="Training_HeaderFooterScript::body_end/be_script.phtml" class="Magento\Framework\View\Element\Template" />
+        </referenceBlock>
     </body>
 </page>

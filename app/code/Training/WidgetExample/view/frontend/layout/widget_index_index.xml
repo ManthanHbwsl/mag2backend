@@ -3,7 +3,7 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     
     <head>
-        <title>Widget Example Page</title>
+        <title>Manthan Widget widget_index_index.xml</title>
     </head>
 
     <body>

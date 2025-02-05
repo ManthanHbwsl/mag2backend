@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+    <body> 
+        <!-- <referenceBlock element="customer.new" remove="true" /> -->
+        <referenceBlock name="customer.new" display="false" />
+    </body>
+</page>

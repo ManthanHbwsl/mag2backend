@@ -1,3 +1,5 @@
+<?php /** @var \Magento\Framework\View\Element\Template $block */ ?>
+
 <div>
-    <strong>This is a message</strong>
+    <strong> <?= $block -> getViewModel() -> getMsg() ?> </strong>
 </div>

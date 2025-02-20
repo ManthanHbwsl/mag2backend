@@ -9,7 +9,7 @@ class Main
     public function __construct(Injectable $injectable, NonInjectableFactory $nonInjectableFactory,array $data = [])
     {
         $this->data = $data;
-        // $this->data['id'] = "Manthan123";
+        $this->data['id'] = "Manthan123";
         $this->injectable = $injectable;
         $this->nonInjectableFactory = $nonInjectableFactory;
     }

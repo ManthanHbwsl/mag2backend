@@ -5,6 +5,9 @@
 
     <type name="\Training\DependencyExample\Model\Main">
         <arguments>
+        
+            <argument name="methodInjection" xsi:type="object">Training\DependencyExample\Model\MethodInjection</argument>
+
             <argument name="data" xsi:type="array">
                 <item name="id" xsi:type="string">Class Main from di.xml</item>
                 <item name="manthan123" xsi:type="string">Class Main from di.xml</item>

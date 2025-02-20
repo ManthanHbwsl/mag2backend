@@ -9,7 +9,7 @@ use Magento\Framework\View\Result\PageFactory;
 
 class Index implements HttpGetActionInterface
 {
-    protected $pageFactory;
+    protected PageFactory $pageFactory;
 
     public function __construct(PageFactory $pageFactory)
     {   
@@ -19,9 +19,7 @@ class Index implements HttpGetActionInterface
     public function execute()
     {
         $resultPage = $this->pageFactory->create();
-        
-        $resultPage->getConfig()->getTitle()->set(__('Dependency Injection Mag2'));
-
+        $resultPage->getConfig()->getTitle()->set(__('Dependency Injection Mag2🚀'));
         return $resultPage;
     }
 }

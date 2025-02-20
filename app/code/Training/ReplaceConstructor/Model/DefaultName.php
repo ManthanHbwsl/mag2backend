@@ -6,12 +6,9 @@ namespace Training\ReplaceConstructor\Model;
 
 class DefaultName
 {
-    
-
     public function getName()
     {
         return "Replace constructor model/defaultname.php";
     }
-
    
 }

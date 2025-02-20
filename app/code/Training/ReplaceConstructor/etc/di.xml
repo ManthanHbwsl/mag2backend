@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Training\ReplaceConstructor\ViewModel\Example">
+        <arguments>
+            <argument name="defaultName" xsi:type="object">Training\ReplaceConstructor\Model\UpperCaseName</argument>
+        </arguments>
+    </type>
+    <preference for="Training\ReplaceConstructor\Model\DefaultName" type="Training\ReplaceConstructor\Model\UpperCaseName" />
+</config>

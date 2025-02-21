@@ -29,9 +29,9 @@ class FeaturedByCategory implements FeaturedProductsInterface
             'prod_2',
             'prod_3',
             'prod_4',
-            'prod_5',
-            'prod_6',
-            'prod_7',
+            // 'prod_5',
+            // 'prod_6',
+            // 'prod_7',
         ];
     }
 }

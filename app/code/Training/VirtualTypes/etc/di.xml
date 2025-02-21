@@ -1,0 +1,4 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Training\VirtualTypes\Api\WarehouseMgmtInterface" type="Training\VirtualTypes\Model\WarehouseMgmt" />
+    <preference for="Training\VirtualTypes\Api\WarehouseRepoInterface" type="Training\VirtualTypes\Model\WarehouseRepo" />
+</config>

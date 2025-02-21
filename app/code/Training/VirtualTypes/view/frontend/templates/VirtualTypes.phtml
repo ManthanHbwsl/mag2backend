@@ -1,7 +1,8 @@
 <?php
 /** @var \Training\VirtualTypes\ViewModel\Example $viewModel */
 $viewModel = $block->getViewModel();
-$warehouseData = $viewModel->getWarehouse('WH1'); 
+$warehouseId = $block->getRequest()->getParam('id', 'default_id'); // Get 'id' parameter from the URL, default to 'default_id'
+$warehouseData = $viewModel->getWarehouse($warehouseId);
 ?>
 
 <h2>Warehouse Data</h2>
